@@ -49,9 +49,9 @@ class _SoundButtonPageState extends State<SoundButtonPage> {
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.red,
-            fixedSize: Size(400, 400), // Квадратна форма кнопки
+            fixedSize: Size(400, 400), 
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero, // Відсутність округлення
+              borderRadius: BorderRadius.zero, 
             ),
           ),
           onPressed: _toggleSound,
